@@ -1,0 +1,32 @@
+{
+  "name": "@lensedegree/design-system",
+  "version": "0.3.0",
+  "description": "Design system desenvolvido para ser utilizado nos sistemas da Lense Degree",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "theo buttons.yml --format scss,cssmodules.css --dest dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lense-Degree/design-system.git"
+  },
+  "keywords": [
+    "Lense Degree",
+    "Design System"
+  ],
+  "author": "Lense Degree <contato@lensedegree.com> (http://lensedegree.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lense-Degree/design-system/issues"
+  },
+  "homepage": "https://github.com/Lense-Degree/design-system#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "theo": "^8.1.5",
+    "yargs": "^17.1.1"
+  },
+  "files": [
+    "dist/**"
+  ]
+}

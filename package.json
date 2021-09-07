@@ -1,6 +1,6 @@
 {
-  "name": "@lensedegree/design-system",
-  "version": "0.3.0",
+  "name": "@lense-degree/design-system",
+  "version": "0.1.0-alpha.0",
   "description": "Design system desenvolvido para ser utilizado nos sistemas da Lense Degree",
   "main": "index.js",
   "scripts": {

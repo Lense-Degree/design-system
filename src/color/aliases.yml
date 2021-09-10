@@ -1,7 +1,0 @@
----
-global: 
-  type: aliases
-  category: pallete-color
-
-aliases:
-  color-brand-primary: "#0070d2"

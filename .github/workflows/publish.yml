@@ -28,19 +28,20 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Download package-build
-        uses: actions/download-artifact@v2
-        with:
-          name: package-build
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: 14
           registry-url: https://registry.npmjs.org/
           scope: '@lense-degree'
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+      - name: Download package-build
+        uses: actions/download-artifact@v2
+        with:
+          name: package-build
+      - name: Publish package on NPM
+        run: npm publish
+          env:
+            NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
   publish-gpr:
     needs: build
@@ -49,16 +50,17 @@ jobs:
       contents: read
       packages: write
     steps:
-      - name: Download package-build
-        uses: actions/download-artifact@v2
-        with:
-          name: package-build
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
           node-version: 14
           registry-url: https://npm.pkg.github.com/
           scope: '@lense-degree'
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: Download package-build
+        uses: actions/download-artifact@v2
+        with:
+          name: package-build
+      - name: Publish package on Github Packages
+        run: npm publish
+          env:
+            NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}

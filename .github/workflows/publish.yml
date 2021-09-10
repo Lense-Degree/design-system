@@ -8,24 +8,7 @@ on:
     types: [published]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-        with:
-          node-version: 14
-      - name: npm install && build
-        run: |
-          npm ci
-          npm run build
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: package-build
-          path: dist
-
   publish-npm:
-    needs: build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -34,17 +17,16 @@ jobs:
           node-version: 14
           registry-url: https://registry.npmjs.org/
           scope: '@lense-degree'
-      - name: Download package-build
-        uses: actions/download-artifact@v2
-        with:
-          name: package-build
+      - name: npm install && build
+        run: |
+          npm ci
+          npm run build
       - name: Publish package on NPM
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
 
   publish-gpr:
-    needs: build
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -56,10 +38,10 @@ jobs:
           node-version: 14
           registry-url: https://npm.pkg.github.com/
           scope: '@lense-degree'
-      - name: Download package-build
-        uses: actions/download-artifact@v2
-        with:
-          name: package-build
+      - name: npm install && build
+        run: |
+          npm ci
+          npm run build
       - name: Publish package on Github Packages
         run: npm publish
         env:

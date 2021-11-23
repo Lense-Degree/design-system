@@ -1,0 +1,22 @@
+{
+  "line": {
+    "height": {
+      "tight": {
+        "value": "100%",
+        "name": "Tight"
+      },
+      "close": {
+        "value": "130%",
+        "name": "Close"
+      },
+      "medium": {
+        "value": "150%",
+        "name": "Medium"
+      },
+      "distant": {
+        "value": "200%",
+        "name": "Distant"
+      }
+    }
+  }
+}

@@ -4,8 +4,7 @@
   "description": "Design system desenvolvido para ser utilizado nos sistemas da Lense Degree",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "style-dictionary build --config ./sd.config.json"
+    "build": "style-dictionary build --config ./sd.config.js"
   },
   "repository": {
     "type": "git",
@@ -21,9 +20,8 @@
     "url": "https://github.com/lense-degree/design-system/issues"
   },
   "homepage": "https://github.com/lense-degree/design-system#readme",
-  "dependencies": {},
   "devDependencies": {
-    "style-dictionary": "^3.0.2"
+    "style-dictionary": "^3.0.3"
   },
   "files": [
     "dist/**"

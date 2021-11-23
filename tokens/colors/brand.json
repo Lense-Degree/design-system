@@ -1,0 +1,36 @@
+{
+  "color": {
+    "primary": {
+      "01": {
+        "value": "#4673FF",
+        "name": "Morpho Blue"
+      }
+    },
+    "secundary": {
+      "01": {
+        "value": "#FFC72C",
+        "name": "Yellow Lense"
+      },
+      "02": {
+        "value": "#4B9560",
+        "name": "Green Lense"
+      },
+      "03": {
+        "value": "#F9423A",
+        "name": "Red Lense"
+      },
+      "04": {
+        "value": "#6638B6",
+        "name": "Purple Lense"
+      },
+      "05": {
+        "value": "#FF7F41",
+        "name": "Orange Lense"
+      },
+      "06": {
+        "value": "#DBE442",
+        "name": "Lime Lense"
+      }
+    }
+  }
+}

@@ -1,8 +1,12 @@
 {
   "font": {
     "size": {
-      "mini": {
+      "zee": {
         "value": "12px",
+        "name": "Mini"
+      },
+      "mini": {
+        "value": "14px",
         "name": "Mini"
       },
       "weeny": {

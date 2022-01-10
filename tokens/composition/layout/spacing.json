@@ -1,11 +1,15 @@
 {
   "spacing": {
-    "mini": {
+    "zee": {
       "value": "4px",
       "name": "Mini"
     },
-    "weeny": {
+    "mini": {
       "value": "8px",
+      "name": "Mini"
+    },
+    "weeny": {
+      "value": "10px",
       "name": "Weeny"
     },
     "tiny": {

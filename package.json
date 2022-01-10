@@ -1,6 +1,6 @@
 {
-  "name": "@lense-degree/design-system",
-  "version": "0.0.0-alpha.4",
+  "name": "@lensedegree/ds-tokens",
+  "version": "0.0.0-alpha.5",
   "description": "Design system desenvolvido para ser utilizado nos sistemas da Lense Degree",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lense-degree/design-system.git"
+    "url": "git+https://github.com/lensedegree/ds-tokens.git"
   },
   "keywords": [
     "Lense Degree",
@@ -17,9 +17,9 @@
   "author": "Lense Degree <contato@lensedegree.com> (http://lensedegree.com)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lense-degree/design-system/issues"
+    "url": "https://github.com/lensedegree/ds-tokens/issues"
   },
-  "homepage": "https://github.com/lense-degree/design-system#readme",
+  "homepage": "https://github.com/lensedegree/ds-tokens#readme",
   "devDependencies": {
     "style-dictionary": "^3.0.3"
   },

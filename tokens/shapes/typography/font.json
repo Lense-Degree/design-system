@@ -1,11 +1,11 @@
 {
   "font": {
     "family": {
-      "quarto": {
-        "value": "Quarto A, Quarto B",
+      "01": {
+        "value": "\"Quarto A, Quarto B\"",
         "name": "Quarto Pro"
       },
-      "Neue": {
+      "02": {
         "value": "neue-haas-unica, sans-serif",
         "name": "Neue Haas Única"
       }

@@ -1,0 +1,26 @@
+{
+	"margin": {
+		"fixed": {
+			"tiny": {
+				"value": "0",
+				"name": "Tiny"
+			},
+			"small": {
+				"value": "16px",
+				"name": "Small"
+			},
+			"medium": {
+				"value": "16px",
+				"name": "Medium"
+			},
+			"large": {
+				"value": "16px",
+				"name": "Large"
+			},
+			"huge": {
+				"value": "32px",
+				"name": "Huge"
+			}
+		} 
+	}
+}

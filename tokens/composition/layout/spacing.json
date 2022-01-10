@@ -1,0 +1,64 @@
+{
+  "spacing": {
+    "mini": {
+      "value": "4px",
+      "name": "Mini"
+    },
+    "weeny": {
+      "value": "8px",
+      "name": "Weeny"
+    },
+    "tiny": {
+      "value": "12px",
+      "name": "Tiny"
+    },
+    "xxxsm": {
+      "value": "16px",
+      "name": "XXX Small"
+    },
+    "xxsm": {
+      "value": "20px",
+      "name": "XX Small"
+    },
+    "xsm": {
+      "value": "24px",
+      "name": "X Small"
+    },
+    "sm": {
+      "value": "32px",
+      "name": "Small"
+    },
+    "md": {
+      "value": "40px",
+      "name": "Medium"
+    },
+    "lg": {
+      "value": "48px",
+      "name": "Large"
+    },
+    "xlg": {
+      "value": "56px",
+      "name": "X Large"
+    },
+    "xxlg": {
+      "value": "64px",
+      "name": "XX Large"
+    },
+    "xxxlg": {
+      "value": "72px",
+      "name": "XXX Large"
+    },
+    "huge": {
+      "value": "96px",
+      "name": "Huge"
+    },
+    "giant": {
+      "value": "128px",
+      "name": "Giant"
+    },
+    "max": {
+      "value": "160px",
+      "name": "Max"
+    }
+  }
+}

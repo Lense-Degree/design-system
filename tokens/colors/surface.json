@@ -1,53 +1,53 @@
 {
   "surface": {
     "color": {
+      "00": {
+        "value": "#000000",
+        "name": "Black"
+      },
       "01": {
-        "value": "#FFFFFF",
-        "name": "Light"
-      },
-      "02": {
-        "value": "#F2F2F2",
-        "name": "Gray 01"
-      },
-      "03": {
-        "value": "#D8D8D8",
-        "name": "Gray 02"
-      },
-      "04": {
-        "value": "#BFBFBF",
-        "name": "Gray 03"
-      },
-      "05": {
-        "value": "#959595",
-        "name": "Gray 04"
-      },
-      "06": {
-        "value": "#757575",
-        "name": "Gray 05"
-      },
-      "07": {
-        "value": "#505050",
-        "name": "Gray 06"
-      },
-      "08": {
-        "value": "#404040",
-        "name": "Gray 07"
-      },
-      "09": {
-        "value": "#303030",
-        "name": "Gray 08"
-      },
-      "10": {
-        "value": "#202020",
-        "name": "Gray 09"
-      },
-      "11": {
         "value": "#101010",
         "name": "Gray 10"
       },
-      "12": {
-        "value": "#000000",
-        "name": "Dark"
+      "02": {
+        "value": "#202020",
+        "name": "Gray 20"
+      },
+      "03": {
+        "value": "#303030",
+        "name": "Gray 30"
+      },
+      "04": {
+        "value": "#404040",
+        "name": "Gray 40"
+      },
+      "05": {
+        "value": "#505050",
+        "name": "Gray 50"
+      },
+      "06": {
+        "value": "#757575",
+        "name": "Gray 60"
+      },
+      "07": {
+        "value": "#959595",
+        "name": "Gray 70"
+      },
+      "08": {
+        "value": "#BFBFBF",
+        "name": "Gray 80"
+      },
+      "09": {
+        "value": "#D8D8D8",
+        "name": "Gray 90"
+      },
+      "10": {
+        "value": "#F2F2F2",
+        "name": "Gray 100"
+      },
+      "11": {
+        "value": "#FFFFFF",
+        "name": "White"
       }
     }
   }

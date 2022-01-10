@@ -1,0 +1,70 @@
+{
+	"column": {
+		"fluid": {
+			"tiny": {
+				"value": "25%",
+				"name": "Tiny"
+			},
+			"small": {
+				"value": "12.50%",
+				"name": "Small"
+			},
+			"medium": {
+				"value": "6.25%",
+				"name": "Medium"
+			},
+			"large": {
+				"value": "6.25%",
+				"name": "Large"
+			},
+			"huge": {
+				"value": "6.25%",
+				"name": "Huge"
+			}
+		},
+		"fixed": {
+			"tiny": {
+				"value": "80px",
+				"name": "Tiny"
+			},
+			"small": {
+				"value": "80px",
+				"name": "Small"
+			},
+			"medium": {
+				"value": "64px",
+				"name": "Medium"
+			},
+			"large": {
+				"value": "80px",
+				"name": "Large"
+			},
+			"huge": {
+				"value": "96px",
+				"name": "Huge"
+			}
+		},
+		"hybrid": {
+			"tiny": {
+				"value": "25%",
+				"name": "Tiny"
+			},
+			"small": {
+				"value": "12.50%",
+				"name": "Small"
+			},
+			"medium": {
+				"value": "64px",
+				"name": "Medium"
+			},
+			"large": {
+				"value": "80px",
+				"name": "Large"
+			},
+			"huge": {
+				"value": "96px",
+				"name": "Huge"
+			}
+		}
+	}
+}

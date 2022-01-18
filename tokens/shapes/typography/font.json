@@ -2,7 +2,7 @@
   "font": {
     "family": {
       "01": {
-        "value": "\"Quarto A, Quarto B\"",
+        "value": ["\"Quarto A\"", "\"Quarto B\""],
         "name": "Quarto Pro"
       },
       "02": {

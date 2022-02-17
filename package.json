@@ -1,25 +1,26 @@
 {
-  "name": "@lensedegree/ds-tokens",
-  "version": "0.0.0-alpha.6",
-  "description": "Design system desenvolvido para ser utilizado nos sistemas da Lense Degree",
+  "name": "@overlens/ds-tokens",
+  "version": "0.0.0-alpha.1",
+  "description": "Tokens desenvolvidos para serem utilizados no Design System da Overlens",
   "main": "index.js",
   "scripts": {
     "build": "style-dictionary build --config ./sd.config.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lensedegree/ds-tokens.git"
+    "url": "git+https://github.com/overlens/ds-tokens.git"
   },
   "keywords": [
-    "Lense Degree",
-    "Design System"
+    "Overlens",
+    "Design System",
+    "Tokens"
   ],
-  "author": "Lense Degree <contato@lensedegree.com> (http://lensedegree.com)",
+  "author": "Overlens <> ()",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lensedegree/ds-tokens/issues"
+    "url": "https://github.com/overlens/ds-tokens/issues"
   },
-  "homepage": "https://github.com/lensedegree/ds-tokens#readme",
+  "homepage": "https://github.com/overlens/ds-tokens#readme",
   "devDependencies": {
     "style-dictionary": "^3.0.3"
   },

@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 14
           registry-url: https://registry.npmjs.org/
-          scope: '@lensedegree'
+          scope: '@overlens'
       - name: npm install && build
         run: |
           npm ci
@@ -37,7 +37,7 @@ jobs:
         with:
           node-version: 14
           registry-url: https://npm.pkg.github.com/
-          scope: '@lensedegree'
+          scope: '@overlens'
       - name: npm install && build
         run: |
           npm ci

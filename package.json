@@ -1,6 +1,6 @@
 {
   "name": "@overlens/ds-tokens",
-  "version": "0.0.0-alpha.1",
+  "version": "0.0.0-alpha.8",
   "description": "Tokens desenvolvidos para serem utilizados no Design System da Overlens",
   "main": "index.js",
   "scripts": {
